@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --background: 220 30% 96%;
+  --foreground: 220 40% 12%;
+  --border: 220 20% 85%;
+  --card: 0 0% 100%;
+  --primary: 220 70% 25%;
+  --muted: 220 20% 92%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #eef1f7;
+    color: #1a2744;
+    -webkit-font-smoothing: antialiased;
+  }
+}
