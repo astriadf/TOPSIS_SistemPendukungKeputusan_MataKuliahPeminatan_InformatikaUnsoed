@@ -1,6 +1,6 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import Layout from "@/components/Layout";
+import Layout from "@/components/layout";
 import Dashboard from "@/pages/Dashboard";
 import Criteria from "@/pages/Criteria";
 import Rankings from "@/pages/Rankings";

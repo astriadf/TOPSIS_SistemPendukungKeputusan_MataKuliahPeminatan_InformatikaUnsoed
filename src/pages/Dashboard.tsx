@@ -44,10 +44,10 @@ export default function Dashboard() {
               </span>
             </div>
             <h1 className="text-xl font-bold leading-tight mb-3">
-              IMPLEMENTASI TOPSIS UNTUK SISTEM PENDUKUNG KEPUTUSAN MATA KULIAH PEMINATAN PROGRAM STUDI INFORMATIKA UNIVERSITAS JENDERAL SOEDIRMAN
+              IMPLEMENTASI TOPSIS UNTUK SISTEM PENDUKUNG KEPUTUSAN MATA KULIAH PILIHAN PROGRAM STUDI INFORMATIKA UNIVERSITAS JENDERAL SOEDIRMAN
             </h1>
             <p className="text-white/70 text-sm leading-relaxed mb-6">
-              Visualisasi hasil analisis TOPSIS berdasarkan survei terhadap {kelompokInfo.responden} mahasiswa dan wawancara dengan {kelompokInfo.wawancara} responden untuk menentukan prioritas mata kuliah peminatan yang optimal.
+              Visualisasi hasil analisis TOPSIS berdasarkan survei terhadap {kelompokInfo.responden} mahasiswa dan wawancara dengan {kelompokInfo.wawancara} responden untuk menentukan prioritas mata kuliah pilihan yang optimal.
             </p>
             <div className="flex gap-8">
               <div>
@@ -81,7 +81,7 @@ export default function Dashboard() {
         <div className="lg:col-span-2 bg-white rounded-xl p-5 shadow-sm">
           <h2 className="font-bold text-[#0f1d3d] text-base mb-3">Analisis Latar Belakang</h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-3">
-            Pemilihan mata kuliah peminatan seringkali menjadi tantangan bagi tiap mahasiswa karena menyangkut rencana karir, tingkat kesulitan, dan keterbatasan data survei yang sistematis dan terukur.
+            Pemilihan mata kuliah pilihan seringkali menjadi tantangan bagi tiap mahasiswa karena menyangkut rencana karir, tingkat kesulitan, dan keterbatasan data survei yang sistematis dan terukur.
           </p>
           <p className="text-sm text-gray-600 leading-relaxed">
             Penelitian ini menggunakan metode TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) untuk memberikan rekomendasi objektif yang mempertimbangkan preferensi mahasiswa dan kriteria akademis.
