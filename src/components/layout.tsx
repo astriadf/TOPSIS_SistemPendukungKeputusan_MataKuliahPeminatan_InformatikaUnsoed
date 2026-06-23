@@ -4,6 +4,7 @@ const navItems = [
   { label: "Dashboard", path: "/" },
   { label: "Criteria",  path: "/criteria" },
   { label: "Rankings",  path: "/rankings" },
+  { label: "Bidang Minat", path: "/bidang-minat" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {

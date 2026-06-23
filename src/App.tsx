@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import Dashboard from "@/pages/Dashboard";
 import Criteria from "@/pages/Criteria";
 import Rankings from "@/pages/Rankings";
+import BidangMinat from "@/pages/BidangMinat";
 
 const queryClient = new QueryClient();
 
@@ -14,6 +15,7 @@ function Router() {
         <Route path="/" component={Dashboard} />
         <Route path="/criteria" component={Criteria} />
         <Route path="/rankings" component={Rankings} />
+        <Route path="/bidang-minat" component={BidangMinat} />
         <Route>
           <div className="text-center py-20 text-gray-400">Halaman tidak ditemukan</div>
         </Route>
